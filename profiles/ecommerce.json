@@ -1,0 +1,123 @@
+{
+  "profile_id": "ecommerce",
+  "display_name": "电商知识库",
+  "obsidian_vault_root": "./example-vault/ecommerce",
+  "routes": {
+    "short_video": "02_知识卡片",
+    "long_form": "03_课程笔记",
+    "default": "02_知识卡片"
+  },
+  "dify_dataset": {
+    "id": null,
+    "name": "电商知识库"
+  },
+  "target_documents": [
+    {
+      "document_id": null,
+      "document_name": "闲鱼.txt",
+      "match_rules": {
+        "subject_platform": "闲鱼"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "通用电商.txt",
+      "match_rules": {
+        "subject_platform": "通用电商"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "跨平台比较.txt",
+      "match_rules": {
+        "subject_platform": "跨平台比较"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "独立站.txt",
+      "match_rules": {
+        "subject_platform": "独立站"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "淘宝天猫.txt",
+      "match_rules": {
+        "subject_platform": "淘宝天猫"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "拼多多.txt",
+      "match_rules": {
+        "subject_platform": "拼多多"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "抖音电商.txt",
+      "match_rules": {
+        "subject_platform": "抖音电商"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "得物.txt",
+      "match_rules": {
+        "subject_platform": "得物"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "平台未明确.txt",
+      "match_rules": {
+        "default": true
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "小红书.txt",
+      "match_rules": {
+        "subject_platform": "小红书"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "京东.txt",
+      "match_rules": {
+        "subject_platform": "京东"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "Temu.txt",
+      "match_rules": {
+        "subject_platform": "Temu"
+      }
+    },
+    {
+      "document_id": null,
+      "document_name": "1688.txt",
+      "match_rules": {
+        "subject_platform": "1688"
+      }
+    }
+  ],
+  "templates": {
+    "layer2": "../assets/layer2-card-template.md",
+    "layer3": "../references/data-contract.md"
+  },
+  "taxonomy": {
+    "base_tags": [
+      "电商/来源素材",
+      "电商/来源/{blogger}"
+    ],
+    "theme_tag_format": "电商/主题/{primary_theme}",
+    "allowed_additional_tags": [],
+    "filename_fallback": "电商素材"
+  },
+  "domain_rules": [
+    "../references/ecommerce-ingestion.md"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "profile_id": "ai_collaboration",
+  "display_name": "AI协作复盘",
+  "obsidian_vault_root": "./example-vault/ai_collaboration",
+  "routes": {
+    "unknown": "二层来源母卡",
+    "default": "二层来源母卡"
+  },
+  "dify_dataset": {
+    "id": null,
+    "name": "AI协作复盘"
+  },
+  "target_documents": [
+    {
+      "document_id": null,
+      "document_name": "AI协作复盘-三层知识点-全量.txt",
+      "match_rules": {
+        "default": true
+      }
+    }
+  ],
+  "templates": {
+    "layer2": "../assets/layer2-card-template.md",
+    "layer3": "../references/data-contract.md"
+  },
+  "taxonomy": {
+    "base_tags": [
+      "AI协作/来源素材",
+      "AI协作/项目/{blogger}"
+    ],
+    "theme_tags": {
+      "01": "AI协作/主题/需求与边界",
+      "02": "AI协作/主题/知识库与去重",
+      "03": "AI协作/主题/协作与审核",
+      "04": "AI协作/主题/验证与状态"
+    },
+    "allowed_additional_tags": [],
+    "filename_fallback": "AI协作复盘素材"
+  },
+  "domain_rules": [
+    "../references/ai-collaboration-ingestion.md"
+  ]
+}

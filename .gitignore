@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+runtime/
+work/
+example-vault/
+private/
+logs/
+backups/
+.env
+.env.*
+!.env.example
+config.local.json
+*.log

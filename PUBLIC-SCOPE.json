@@ -1,0 +1,28 @@
+{
+  "excluded_private_skill_contract_tests": [
+    "test_ecommerce_runtime_and_vector_policy.py",
+    "test_manual_review.py",
+    "test_skill_final_architecture.py",
+    "test_skill_storage_policy.py"
+  ],
+  "excluded_optional_artifact_sdk_tools": [
+    "manual_review.mjs",
+    "load_artifact_tool.mjs"
+  ],
+  "examples": "Synthetic tests and placeholder profiles; no actual knowledge-base cards",
+  "skipped_private_integration_tests": {
+    "test_isolated_sample.py": [
+      "test_skill_explicitly_keeps_semantically_overlapping_layer2_cards"
+    ],
+    "test_layer2_contract_v2.py": [
+      "test_v2_examples_cover_short_and_long_routes",
+      "test_long_form_example_is_middle_lesson_with_full_context",
+      "test_short_example_hook_is_raw_prefix_and_has_no_empty_optional_sections",
+      "test_skill_routes_sources_before_layer2_rendering",
+      "test_skill_uses_full_identity_manifest_mapping_without_sha_only_skip",
+      "test_skill_routes_research_reports_around_generic_transcript_commands",
+      "test_formal_updater_embeds_v2_template_without_running",
+      "test_formal_updater_keeps_card_path_separate_from_source_metadata"
+    ]
+  }
+}

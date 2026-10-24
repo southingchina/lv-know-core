@@ -1,0 +1,41 @@
+{
+  "profile_id": "ai",
+  "display_name": "AI博主",
+  "obsidian_vault_root": "./example-vault/ai",
+  "routes": {
+    "short_video": "01-视频母卡",
+    "long_form": "01-视频母卡",
+    "default": "01-视频母卡"
+  },
+  "dify_dataset": {
+    "id": null,
+    "name": "AI博主"
+  },
+  "target_documents": [
+    {
+      "document_id": null,
+      "document_name": "AI博主-三层知识点-全量.txt",
+      "match_rules": {
+        "default": true
+      }
+    }
+  ],
+  "templates": {
+    "layer2": "../assets/layer2-card-template.md",
+    "layer3": "../references/data-contract.md"
+  },
+  "taxonomy": {
+    "base_tags": [
+      "AI/创作素材",
+      "AI/博主/{blogger}"
+    ],
+    "theme_tag_format": "AI/主题/{primary_theme}",
+    "allowed_additional_tags": [
+      "AI/博主分类/电商"
+    ],
+    "filename_fallback": "AI素材"
+  },
+  "domain_rules": [
+    "../references/semantic-rules.md"
+  ]
+}
